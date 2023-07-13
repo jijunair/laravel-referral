@@ -125,7 +125,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 Thank you for considering contributing to the Laravel Referral Package! If you have any suggestions, bug reports, or pull requests, please feel free to open an issue or submit a pull request on the GitHub repository.
 
 ## License
-The Laravel Referral Package is open-source software licensed under the [MIT](LICENSE.md) license.
+The Laravel Referral Package is open-source software licensed under the [MIT](LICENSE) license.
 
 
 
