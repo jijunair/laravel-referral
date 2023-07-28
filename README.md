@@ -40,7 +40,7 @@ The package provides a configuration file that allows you to customize its behav
 ```php
 php artisan vendor:publish --provider="Jijunair\LaravelReferral\Providers\ReferralServiceProvider"
 ```
-After publishing, you can find the configuration file at config/referral.php. This file allows you to configure the cookie name and other package-specific settings.
+After publishing, you can find the configuration file at config/referral.php.
 
 | Configuration Key   | Description                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------------------|
