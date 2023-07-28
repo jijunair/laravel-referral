@@ -42,6 +42,19 @@ php artisan vendor:publish --provider="Jijunair\LaravelReferral\Providers\Referr
 ```
 After publishing, you can find the configuration file at config/referral.php. This file allows you to configure the cookie name and other package-specific settings.
 
+| Configuration Key   | Description                                                                                                   |
+|---------------------|---------------------------------------------------------------------------------------------------------------|
+| `cookie_name`       | The name of the cookie that tracks referrals.                                                          |
+| `cookie_expiry`     | How long the referral cookie will be valid. (Default: 1 year)                            |
+| `route_prefix`      | The prefix used for referral links.                                                     |
+| `ref_code_prefix`   | The prefix added to the unique referral code for each user.                                         |
+| `redirect_route`    | The page where users will go after clicking on a referral link.                                              |
+| `user_model`        | The model class for the user.                                                                 |
+| `referral_length`   | The length of the referral code for each user. (Default: 8 characters)                                |
+
+These configuration options help customize the behavior of the referral system in your Laravel application. Feel free to adjust these values according to your preferences and requirements!
+
+
 #### Migration
 After the config and migration have been published and configured, you can create the tables for this package by running:
 ```php
