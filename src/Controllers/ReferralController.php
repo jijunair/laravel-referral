@@ -34,7 +34,7 @@ class ReferralController extends Controller
      */
     public function createReferralCodeForExistingUsers()
     {
-        $userModel = resolve(config('auth.providers.users.model'));
+        $userModel = resolve(config('referral.user_model'));
         $users = $userModel::cursor();
 
         foreach ($users as $user) {
