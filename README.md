@@ -9,7 +9,15 @@
 </p>
 
 
-The "jijunair/laravel-referral" package is a custom Laravel package that provides referral code functionality for your Laravel applications. It allows you to generate referral codes, associate them with users, retrieve users based on their referral codes and all other related features.
+The **Laravel Referral** package (`jijunair/laravel-referral`) is a powerful and easy-to-use package for adding referral system functionality to your Laravel applications. With this package, you can effortlessly generate referral codes, track user referrals, and reward users based on their referrals.  
+
+## Key Features  
+✅ Generate unique referral codes for users  
+✅ Track referrals and associate them with users  
+✅ Retrieve referrers and their referred users  
+✅ Customizable referral code length, cookie tracking, and redirection  
+✅ Simple trait-based integration with your `User` model
+
 
 - [Installation](#installation)
     - [Configuration](#configuration)
